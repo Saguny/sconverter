@@ -9,11 +9,12 @@ A CLI-based YouTube video and audio downloader built with Python, yt-dlp, and FF
 - Support for custom format conversion (mp4, avi, wav, m4a, flac, etc.).
 - Integrated cleanup option to delete source files after conversion.
 - Safety warnings for video-to-audio conversions.
+- yaba daba du
 
 ## Requirements
 
-- Python 3.x
-- FFmpeg and FFprobe (must be in system PATH or root directory)
+- Python 3.14
+- FFmpeg and FFprobe can be downloaded here: https://github.com/BtbN/FFmpeg-Builds/releases
 - Python dependencies:
   - yt-dlp
   - colorama
@@ -24,3 +25,7 @@ A CLI-based YouTube video and audio downloader built with Python, yt-dlp, and FF
 2. Install dependencies:
    ```bash
    pip install yt-dlp colorama
+
+3. Run
+    ```bash
+   python main.py
